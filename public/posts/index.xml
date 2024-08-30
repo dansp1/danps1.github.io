@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intent Redirection</title>
-      <link>//localhost:1313/posts/intent-redirection/</link>
+      <link>http://localhost:1313/posts/intent-redirection/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/intent-redirection/</guid>
-      <description>Intent Redirection Overview Practice </description>
+      <guid>http://localhost:1313/posts/intent-redirection/</guid>
+      <description>Overview Hey fellow readers, welcome to today&amp;rsquo;s blog post!&#xA;We are going to discuss some Android hacking topics. The goal is not to delve too deeply into general concepts, such as what an intent filter is.&#xA;The idea here is to practice a particular technique that can be used in your daily pentests and bug hunting in this beautiful world of Android hacking.&#xA;According to the official Android documentation:</description>
     </item>
   </channel>
 </rss>
