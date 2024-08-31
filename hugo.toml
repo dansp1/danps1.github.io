@@ -15,7 +15,7 @@ paginate = 10
 
 # Google Analytics
 # https://gohugo.io/templates/internal/#google-analytics
-# googleAnalytics = ""
+ googleAnalytics = "G-WGK6H4QB8E"
 
 [params.author]
     name = "Daniel Patricio"
