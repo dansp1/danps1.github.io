@@ -1,104 +1,137 @@
-baseURL = "https://danps1.github.io/"
-languageCode = "en-us"
-theme = "poison"
+title = "Journal"
+theme = "heyo"
+baseURL = "/"
+languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+summarylength = 100
+enableEmoji = true
+enableRobotsTXT = true
 paginate = 10
-pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-# NOTE: If using Disqus as commenting engine, uncomment and configure this line
-# disqusShortname = "yourDisqusShortname"
+# Disqus comments
+# https://gohugo.io/templates/internal/#configure-disqus
+# disqusShortname = ""
+
+# Google Analytics
+# https://gohugo.io/templates/internal/#google-analytics
+# googleAnalytics = ""
+
+[params.author]
+    name = "Daniel Patricio"
+    email = "soaresdaniel487@gmail.com"
 
 [params]
-    brand = "Daniel Patricio"                      # name of your site - appears in the sidebar
-    brand_image = "/images/avatar.png"    # path to the image shown in the sidebar
-    description = "Security Enginner | Pentester" # Used as default meta description if not specified in front matter
-    dark_mode = true                      # optional - defaults to false
-    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
-
-    # front_page_content = ["posts", "about"]
-    # MENU PLACEHOLDER
-    # Menu dict keys:
-        # Name:         The name to display on the menu.
-        # URL:          The directory relative to the content directory.
-        # HasChildren:  If the directory's files should be listed.  Default is true.
-        # Limit:        If the files should be listed, how many should be shown.
-    menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-    ]
-
-    # Links to your socials.  Comment or delete any you don't need/use. 
-    # discord_url = "https://discord.com"
-    email_url = "mailto://soaresdaniel487@gmail.com"
-    # facebook_url = "https://facebook.com"
-    # flickr_url = "https://flickr.com"
-    github_url = "https://github.com/dansp1"
-    # gitlab_url = "https://gitlab.com"
-    # instagram_url = "https://instagram.com"
-    linkedin_url = "https://www.linkedin.com/in/danielspatricio/"
-    # mastodon_url = "https://mastodon.social"
-    # matrix_url = "https://matrix.org"
-    # telegram_url = "https://telegram.org"
-    # tryhackme_url = "https://tryhackme.com"
-    # twitter_url = "https://twitter.com"
-    # xmpp_url = "https://xmpp.org"
-    # youtube_url = "https://youtube.com"
-
-    # NOTE: If you don't want to use RSS, comment or delete the following lines
-    # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
-    rss_icon = true
-    # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
-    rss_section = "posts"
-
-    # Hex colors for your sidebar.
-    moon_sun_background_color = "#515151"   # default is #515151
-    moon_sun_color = "#FFF"                 # default is #FFF
-    sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#202020"            # default is #202020
-    sidebar_h1_color = "#FFF"               # default is #FFF
-    sidebar_img_border_color = "#515151"    # default is #515151
-    sidebar_p_color = "#909090"             # default is #909090
-    sidebar_socials_color = "#FFF"          # default is #FFF
-
-    # Hex colors for your content in light mode.
-    code_color = "#000"                     # default is #000
-    code_background_color = "#E5E5E5"       # default is #E5E5E5
-    code_block_color = "#FFF"               # default is #FFF
-    code_block_background_color = "#272822" # default is #272822
-    content_bg_color = "#FAF9F6"            # default is #FAF9F6
-    date_color = "#515151"                  # default is #515151
-    link_color = "#268BD2"                  # default is #268BD2
-    list_color = "#5A5A5A"                  # default is #5A5A5A
-    post_title_color = "#303030"            # default is #303030
-    table_border_color = "#E5E5E5"          # default is #E5E5E5
-    table_stripe_color = "#F9F9F9"          # default is #F9F9F9
-    text_color = "#222"                     # default is #222
-
-    # Hex colors for your content in dark mode
-    code_color_dark = "#FFF"                        # default is #FFF
-    code_background_color_dark = "#515151"          # default is #515151
-    code_block_color_dark = "#FFF"                  # default is #FFF
-    code_block_background_color_dark = "#272822"    # default is #272822
-    content_bg_color_dark = "#121212"               # default is #121212
-    date_color_dark = "#9A9A9A"                     # default is #9A9A9A
-    link_color_dark = "#268BD2"                     # default is #268BD2
-    list_color_dark = "#9D9D9D"                     # default is #9D9D9D
-    post_title_color_dark = "#DBE2E9"               # default is #DBE2E9
-    table_border_color_dark = "#515151"             # default is #515151
-    table_stripe_color_dark = "#202020"             # default is #202020
-    text_color_dark = "#EEE"                        # default is #EEE
-
-    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-    # remark42 = true
-    # remark42_host = "https://yourhost.com"
-    # remark42_site_id = "your_site_id"
-    
-    # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
-    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
-                                          # this is also used in the schema output as well. Image is resized to max 1200x630
-                                          # For this to work though og_image and brand_url must be a path inside the assets directory
-                                          # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
-    # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
+    title = "Daniel Patricio"
+    description = "Security Engineer | Pentester"
+    profilePicture = "images/avatar.png"
+    favicon = "favicons/"
+    customCss = []
+    customJs = []
+    displayMode = "light"
+    images = ['images/profile.png']
 
 [taxonomies]
     series = 'series'
+    categories = 'categories'
     tags = 'tags'
+
+# Sketch settings
+# you can also enable or disable it per page
+[params.sketch] 
+    enable = false 
+    displayOptions = true
+    # Graph, Digital Rain, or Circles
+    use = "Digital Rain"
+    # JSON that is passed to the sketch constructor
+    # You can check all the possible configurations in
+    startingConfig = """{
+        "kind": "katakana",
+        "nStreams": 10
+    }"""
+
+## Math settings
+[params.math]
+    enable = true # global support, you can also configure it per page
+    use = "mathjax" # katex or mathjax, default is mathjax
+
+## Social links
+[[params.socialIcons]]
+icon = "fab fa-linkedin" # Font-awesome icon
+title = "Linkedin"
+url = "https://www.linkedin.com/in/danielspatricio/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/dansp1"
+
+# [[params.socialIcons]]
+# icon = "fab fa-instagram"
+# title = "instagram"
+# url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:soaresdaniel487@gmail.com"
+
+[languages]
+    [languages.en]
+        languageCode = "en"
+        contentDir = "content/en"
+        weight = 1
+        languageName = "en"
+        [languages.en.menus]
+            [[languages.en.menus.main]]
+                name = "Home"
+                pageRef = "/"
+                weight = 1
+            [[languages.en.menus.main]]
+                name = "Posts"
+                pageRef = "/post"
+                weight = 2
+            [[languages.en.menus.main]]
+                name = "About"
+                pageRef = "/about"
+                weight = 3
+    [languages.pt-br]
+        languageCode = "pt-br"
+        contentDir = "content/pt-br"
+        weight = 2
+        languageName = "pt-br"
+        [languages.pt-br.menus]
+            [[languages.pt-br.menus.main]]
+                name = "Home"
+                pageRef = "/"
+                weight = 1
+            [[languages.pt-br.menus.main]]
+                name = "Posts"
+                pageRef = "/post"
+                weight = 2
+            [[languages.pt-br.menus.main]]
+                name = "Sobre"
+                pageRef = "/about"
+                weight = 3
+
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true
+    [markup.tableOfContents]
+        endLevel = 6
+        startLevel = 1
+    [markup.highlight]
+        anchorLineNos = false
+        codeFences = true
+        guessSyntax = false
+        hl_Lines = ""
+        lineAnchors = ""
+        lineNoStart = 1
+        lineNos = false
+        lineNumbersInTable = true
+        noClasses = true
+        style = "dracula"
+        tabWidth = 4
+
+# Hugo will ignore these files, .rmd and .rmarkdown are taken care by blogdown
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]

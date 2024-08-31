@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>Journal</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Journal</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>soaresdaniel487@gmail.com (Daniel Patricio)</managingEditor>
+    <webMaster>soaresdaniel487@gmail.com (Daniel Patricio)</webMaster>
+    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intent Redirection</title>
-      <link>http://localhost:1313/posts/intent-redirection/</link>
-      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/intent-redirection/</guid>
-      <description>Overview Hey fellow readers, welcome to today&amp;rsquo;s blog post!&#xA;We are going to discuss some Android hacking topics. The goal is not to delve too deeply into general concepts, such as what an intent filter is.&#xA;The idea here is to practice a particular technique that can be used in your daily pentests and bug hunting in this beautiful world of Android hacking.&#xA;According to the official Android documentation:</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/about/</guid>
-      <description>Teste </description>
+      <title>about me</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><author>soaresdaniel487@gmail.com (Daniel Patricio)</author>
+      <guid>//localhost:1313/about/</guid>
+      <description>Hello This is some example code&#xA;import pwn pwn.xor(&amp;#34;123&amp;#34;, &amp;#34;abc&amp;#34;) print(&amp;#34;Hello world&amp;#34;) Test two </description>
     </item>
   </channel>
 </rss>
