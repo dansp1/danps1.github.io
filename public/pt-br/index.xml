@@ -9,5 +9,12 @@
     <managingEditor>soaresdaniel487@gmail.com (Daniel Patricio)</managingEditor>
     <webMaster>soaresdaniel487@gmail.com (Daniel Patricio)</webMaster>
     <atom:link href="//localhost:1313/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/pt-br/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>soaresdaniel487@gmail.com (Daniel Patricio)</author>
+      <guid>//localhost:1313/pt-br/about/</guid>
+      <description>ABOUT PORTUGA</description>
+    </item>
   </channel>
 </rss>

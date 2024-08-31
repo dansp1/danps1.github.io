@@ -1,6 +1,6 @@
 title = "Journal"
 theme = "heyo"
-baseURL = "/"
+baseURL = "https://danps1.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false

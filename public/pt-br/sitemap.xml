@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/pt-br/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="//localhost:1313/pt-br/about/"
+                />
+  </url><url>
     <loc>//localhost:1313/pt-br/categories/</loc>
     <xhtml:link
                 rel="alternate"
